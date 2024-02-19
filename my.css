@@ -1,0 +1,98 @@
+/*These are the colors of the font*/
+p {
+    color:rgb(199, 237, 85);
+}
+
+h1 {
+    color: rgb(180, 69, 231);
+}
+h3 {
+  color: rgb(153, 240, 162);
+}
+/*This is the color of the background*/
+body {
+
+  background-color: rgb(142, 81, 137);
+
+}
+
+body {
+    margin: 0;
+  }
+  /*This is the header*/
+  .header {
+    background-color: #ffffff;
+    text-align: center;
+    padding: 20px;
+  }
+  /*This is the navigation bar*/
+  .topnav {
+    overflow: hidden;
+    background-color: #030303;
+    height: 50px;
+  }
+  /*This is the color of the navigation bar font*/
+  .topnav a {
+    float: center;
+    color: #fdf5f5;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /*This is the navigation bar button that will turn red when clicked*/
+  .topnav a:hover {
+    background-color: #ddd;
+    color: rgb(128, 11, 11);
+  }
+  /* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 15px;
+}
+
+/* Clear floats after the columns */
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width:600px) {
+  .column {
+    width: 100%;
+  }
+}
+/* Footer */
+.footer {
+  padding: absolute;
+  bottom: 0 ;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+  height: 100px;
+}
+div.center img{display:block; margin: 0 auto ;}
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
